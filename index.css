@@ -1,0 +1,185 @@
+.wel {
+    position: absolute;
+    top: 28%;
+    left: 35%;
+    color: white;
+    text-align: center;
+    font-size: 50px;
+}
+.profision{
+    font-size: large;
+    font-weight: 800;
+}
+.get {
+    background: transparent;
+}
+.carousel-item img{
+    height: 90vh;
+}
+.one .person{
+    font-size: 50px;
+}
+.build img{
+    height: 80vh;
+}
+.buildetailes{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+ .service img{
+     width: 100%;
+     height: 35vh;
+ }
+ .contruct{
+     background-color: black;
+ }
+ .second {
+     box-sizing: border-box;
+ } 
+ .ask{
+     font-weight: 900;
+ }
+ .lorem{
+     opacity: 60%;
+ }
+ .customer{
+background-image: url("https://www.shutterstock.com/image-photo/young-businessman-construction-site-engineerclose-260nw-1023394366.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+}
+.customer1{
+    background-color: black;
+padding: 10px;
+    opacity: 70%;
+    color: white;
+}
+.customer1 img{
+    border-radius: 55%;
+}
+.admin{
+    background-color: gray;
+    opacity: 70%;
+}
+
+ul li{
+    list-style: none;
+}
+ul li span{
+    font-weight: 800;
+    font-size: 15px;
+}
+footer{
+font-weight: 500;    
+}
+.social :is(.twitter,.facebook,.linkedin):hover{
+    color: rgba(0, 0, 255, 0.691);
+}
+.social :is(.youtube,.instagram):hover{
+    color: red;
+}
+.terms{
+   border-top:2px  solid rgba(255, 255, 255, 0.353) ;
+   border-bottom: 2px  solid rgba(255, 255, 255, 0.353);
+   padding: 7px;
+   justify-content: center;
+}
+.terms li{
+  border-right: 2px  solid rgba(255, 255, 255, 0.353);
+  padding-right: 10px;
+  padding-left: 10px;
+}
+ /* #line{
+     position: absolute;
+     width: 2px;
+    height:50vh;
+    overflow: hidden;
+     } */
+@media(max-width:769px) {
+    .wel {
+        position: absolute;
+        top: 22%;
+        left: 17%;
+        font-size: 35px;
+    }
+    .carousel-item img{
+        height: 50vh;
+    }
+    /*       */
+    .working{
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+    }
+    .working .one{
+        width: 100%;
+    }
+    .builders{
+        display: block;
+    }
+    .builders .build{
+        width: 100%;
+    }
+    .builders .buildetailes{
+        width: 100%;
+    }
+    .services{
+        display: grid;
+        grid-template-columns:repeat(1,1fr);
+    }
+    .service ,.team{
+        width: 100%;
+    }
+    .teamers{
+        display: block;
+    }
+    .footer{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+     
+    .footer :is(.one,.two,.three,.four){
+        width: 100%;
+    }
+    .achivers .hdetailes{
+display: none;
+    }
+   
+    /* #line{
+        position: absolute;
+        width: 2px;
+        height: 75vh;
+        } */
+}
+
+@media(max-width:426px) {
+    .carousel-item img{
+        height: 50vh;
+    }
+    /*      */
+    .wel {
+        position: absolute;
+        top: 22%;
+        left: 18%;
+        font-size: 20px;
+    }
+    .working{
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+    }
+    .working .one{
+        width: 100%;
+    }
+    .second{
+        display: block;
+    }
+    .second1,.second2{
+        width: 100%;
+    }
+   
+  
+}
